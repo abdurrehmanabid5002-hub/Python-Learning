@@ -1,6 +1,6 @@
 # # print("Helo World "
 # name = input("enter your name : ")
-# print("your name is :",name )
+# print("your name in :",name )
 # letter = "I am a good boy"
 # print (letter.replace ("good", "bad"))
 # print (letter)
@@ -11,6 +11,24 @@
 # print ( a*b)
 
 
-letter = "i am a good boy and ali is not a good boy "
-print (letter.capitalize().replace("good", "bad").replace("ali", "ahmad"))
-print(letter)
+# letter = "i am a good boy and ali in not a good boy "
+# print (letter.capitalize().replace("good", "bad").replace("ali", "ahmad"))
+# print(letter)
+
+s = set()
+n = input ("Enter the number :")
+s.add(int(n))
+n = input ("Enter the number :")
+n.add(int(n))
+n = input ("Enter the number :")
+n.add(int(n))
+n = input ("Enter the number :")
+n.add(int(n))
+n = input ("Enter the number :")
+n.add(int(n))
+n = input ("Enter the number :")
+n.add(int(n))
+n = input ("Enter the number :")
+n.add(int(n))
+
+print ("The unique numbern are : ", n)
