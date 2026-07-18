@@ -15,24 +15,12 @@
 # print (letter.capitalize().replace("good", "bad").replace("ali", "ahmad"))
 # print(letter)
 
-# s = set()
-# n = input ("Enter the number :")
-# s.add(int(n))
-# n = input ("Enter the number :")
-# s.add(int(n))
-# n = input ("Enter the number :")
-# s.add(int(n))
-# n = input ("Enter the number :")
-# s.add(int(n))
-# n = input ("Enter the number :")
-# s.add(int(n))
-# n = input ("Enter the number :")
-# s.add(int(n))
-# n = input ("Enter the number :")
-# s.add(int(n))
-# n = input ("Enter the number :")
-# s.add(int(n))
-# print ("The unique numbers are : ", s)
+s = set()
+for i in range(5):
+    n = input ("Enter the number :")
+    s.add(int(n))
+
+print ("The unique numbers are : ", s)
 
 
 d ={}
