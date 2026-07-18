@@ -36,31 +36,9 @@
 
 
 d ={}
-
-lang = input("Enter the language : ")
-person = input("Enter the person name : ")
-d.update({lang:person})
-lang = input("Enter the language : ")
-person = input("Enter the person name : ")
-d.update({lang:person})
-lang = input("Enter the language : ")
-person = input("Enter the person name : ")
-d.update({lang:person})
-lang = input("Enter the language : ")
-person = input("Enter the person name : ")
-d.update({lang:person})
-lang = input("Enter the language : ")
-person = input("Enter the person name : ")
-d.update({lang:person})
-lang = input("Enter the language : ")
-person = input("Enter the person name : ")
-d.update({lang:person})
-lang = input("Enter the language : ")
-person = input("Enter the person name : ")
-d.update({lang:person})
-lang = input("Enter the language : ")
-person = input("Enter the person name : ")
-d.update({lang:person})
-
+for i in range (7):
+    lang = input("Enter the language : ")
+    person = input("Enter the person name : ")
+    d.update({lang:person})
 
 print(d)
