@@ -17,7 +17,7 @@ print(letter)
 greet()
 
 s = set()
-for i in range(5):
+for i in range(1,5):
     n = input("Enter the number :")
     s.add(int(n))
 
@@ -25,7 +25,7 @@ print("The unique numbers are : ", s)
 
 
 d = {}
-for i in range(7):
+for i in range(1,7):
     lang = input("Enter the language : ")
     person = input("Enter the person name : ")
     d.update({lang: person})
