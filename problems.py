@@ -16,3 +16,4 @@ while i <= 2:
     else:
         print("You are fail", total_percentage)
     i += 1
+print(total_percentage)
