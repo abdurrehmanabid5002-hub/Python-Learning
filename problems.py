@@ -17,3 +17,9 @@ while i <= 2:
         print("You are fail", total_percentage)
     i += 1
 print(total_percentage)
+
+
+for i in range (100):
+    if i==34:
+        continue
+    print (i)
