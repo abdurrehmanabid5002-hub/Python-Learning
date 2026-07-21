@@ -30,3 +30,12 @@ def fect(n):
     return  n * fect (n-1)
 
 print(fect(3))
+
+
+def goodDay(name, ending):
+    print("Good Day, " + name)
+    print(ending)
+    return 0
+
+a = goodDay("Harry", "Thank you") 
+print(a)
