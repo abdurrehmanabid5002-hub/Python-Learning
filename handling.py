@@ -19,3 +19,6 @@ for word in words :
 
 with open ("myfile.txt", "w") as f :
     f.write ( "")
+
+
+print ( "programe is exicuted")
