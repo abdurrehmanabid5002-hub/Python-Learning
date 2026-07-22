@@ -21,3 +21,10 @@ f.close
 #     # line= f.readlines()
 # f. close()
 
+with open ( "myfile.txt") as f:
+    content = f. read( )
+
+    if "hello " in content:
+        print ( " yes ")
+    else:
+        print ( " No " )
