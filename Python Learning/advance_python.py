@@ -1,3 +1,5 @@
+
+'''
 # lamda 
 square =lambda x:x*x
 print (square(3))
@@ -47,5 +49,8 @@ main()
 l=[2,4,56,7,8,6]
 for index , itmes in enumerate(l):
     print  (f"The index {index}: {itmes}")
+'''
 
-
+list=[1,2,3,4,5,6,7,8,9]
+squarelist=[i*i for i in list]
+print (squarelist)
