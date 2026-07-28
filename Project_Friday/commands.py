@@ -1,5 +1,6 @@
 import webbrowser
 import songs
+import requests
 
 def command_process(c):
     print("Received command:", c)
@@ -30,4 +31,6 @@ def command_process(c):
         link=songs.music[song]
         webbrowser.open(link)
     elif "news" in c.lower():
+        
         response = requests.get("https://newsapi.org/...")
+        

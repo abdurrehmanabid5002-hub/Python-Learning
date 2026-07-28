@@ -9,6 +9,9 @@ import pygame
 import os
 from commands import command_process
 
+
+
+# Recognizer 
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
 
@@ -18,6 +21,9 @@ engine = pyttsx3.init()
 def speak(text):
     engine.say(text)
     engine.runAndWait()
+
+
+
 
 
 if __name__ == "__main__":
@@ -40,7 +46,7 @@ if __name__ == "__main__":
             print("You said:", word)
             if "friday" in word.lower():
                 print("Wake word detected")
-                speak("At your service")
+                engine.say("Friday at your service...")
                 with sr.Microphone() as source:
                     recognizer.adjust_for_ambient_noise(source, duration=0.5)
                     print("Friday at your service...")
