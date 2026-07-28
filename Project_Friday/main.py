@@ -8,21 +8,17 @@ from gtts import gTTS
 import pygame
 import os
 from commands import command_process
-
-
+from speech import speak
+import pyttsx3
+engine = pyttsx3.init()
 
 # Recognizer 
 recognizer = sr.Recognizer()
-engine = pyttsx3.init()
+
 
 
 # For Mac, If you face error related to "pyobjc" when running the `init()` method :
 # Install 9.0.1 version of pyobjc : "pip install pyobjc>=9.0.1"
-def speak(text):
-    engine.say(text)
-    engine.runAndWait()
-
-
 
 
 
