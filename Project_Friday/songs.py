@@ -1,0 +1,22 @@
+music = {
+    "softly": "https://www.youtube.com/results?search_query=Karan+Aujla+Softly",
+    "wavy": "https://www.youtube.com/results?search_query=Karan+Aujla+Wavy",
+    "tauba tauba": "https://www.youtube.com/results?search_query=Karan+Aujla+Tauba+Tauba",
+    "winning speech": "https://www.youtube.com/results?search_query=Karan+Aujla+Winning+Speech",
+    "idk how": "https://www.youtube.com/results?search_query=Karan+Aujla+IDK+How",
+    "admirin you": "https://www.youtube.com/results?search_query=Karan+Aujla+Admirin+You",
+    "on top": "https://www.youtube.com/results?search_query=Karan+Aujla+On+Top",
+    "52 bars": "https://www.youtube.com/results?search_query=Karan+Aujla+52+Bars",
+    "take it easy": "https://www.youtube.com/results?search_query=Karan+Aujla+Take+It+Easy",
+    "players": "https://www.youtube.com/results?search_query=Karan+Aujla+Players",
+    "don't worry": "https://www.youtube.com/results?search_query=Karan+Aujla+Dont+Worry",
+    "chu gon do": "https://www.youtube.com/results?search_query=Karan+Aujla+Chu+Gon+Do",
+    "gangsta": "https://www.youtube.com/results?search_query=Karan+Aujla+Gangsta",
+    "facts": "https://www.youtube.com/results?search_query=Karan+Aujla+Facts",
+    "here and there": "https://www.youtube.com/results?search_query=Karan+Aujla+Here+And+There",
+    "jhanjar": "https://www.youtube.com/results?search_query=Karan+Aujla+Jhanjar",
+    "chitta kurta": "https://www.youtube.com/results?search_query=Karan+Aujla+Chitta+Kurta",
+    "red eyes": "https://www.youtube.com/results?search_query=Karan+Aujla+Red+Eyes",
+    "sheikh": "https://www.youtube.com/results?search_query=Karan+Aujla+Sheikh",
+    "try me": "https://www.youtube.com/results?search_query=Karan+Aujla+Try+Me"
+}
