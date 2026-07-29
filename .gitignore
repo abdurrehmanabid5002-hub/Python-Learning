@@ -1,0 +1,12 @@
+# Ignore NumPy virtual environment
+Numpy/numpy_env/
+
+# Ignore Jupyter checkpoints
+Numpy/.ipynb_checkpoints/
+
+# Ignore Python cache
+**/__pycache__/
+**/*.py[cod]
+
+# VS Code settings
+.vscode/
