@@ -1,5 +1,0 @@
-Python
-NumPy
-Pandas
-Machine Learning
-Artificial Intelligence
