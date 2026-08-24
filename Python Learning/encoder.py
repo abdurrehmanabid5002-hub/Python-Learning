@@ -1,6 +1,6 @@
 # ==================Secret Message Encoder==============================
 
-text = input("Enter your secret message: ")
+''''text = input("Enter your secret message: ")
 
 encoded = ""
 
@@ -10,4 +10,14 @@ for char in text:
     else:
         encoded += char
 
-print("🔐 Encoded:", encoded)
+print("🔐 Encoded:", encoded)'''
+
+import time
+
+print("Starting AI system...")
+
+for i in range(20):
+    print("█" * i + " " * (20 - i), end="\r")
+    time.sleep(0.1)
+
+print("\n🤖 AI System Ready!")
