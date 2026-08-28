@@ -58,7 +58,30 @@ animate()
 # Start Tkinter
 window.mainloop()'''
 
+import random
 
+number = random.randint(1, 100)
+attempts = 0
+
+print("Guess the number between 1 and 100.")
+
+while True:
+    try:
+        guess = int(input("Enter your guess: "))
+        attempts += 1
+
+        if guess < number:
+            print("Try a higher number.")
+
+        elif guess > number:
+            print("Try a lower number.")
+
+        else:
+            print(f"You got it in {attempts} attempts.")
+            break
+
+    except ValueError:
+        print("Please enter a whole number.")
 
 
 from dash import Dash, dcc, html, Input, Output
