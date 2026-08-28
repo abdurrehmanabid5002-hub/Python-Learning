@@ -84,7 +84,7 @@ while True:
         print("Please enter a whole number.")
 
 
-from dash import Dash, dcc, html, Input, Output
+'''from dash import Dash, dcc, html, Input, Output
 import plotly.express as px
 
 app = Dash(__name__)
@@ -121,4 +121,4 @@ def display_animated_graph(selection):
     return animations[selection]
 
 
-app.run(debug=True)
+app.run(debug=True)'''
