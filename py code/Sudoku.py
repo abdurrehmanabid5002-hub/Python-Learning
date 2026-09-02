@@ -72,3 +72,40 @@ if solve():
     print_board()
 else:
     print("No solution exists.")
+
+
+
+
+from collections import Counter
+
+words = [
+    "python",
+    "program",
+    "computer",
+    "science",
+    "developer",
+    "data",
+    "analysis",
+    "machine",
+    "learning",
+    "algorithm",
+    "function",
+    "variable"
+]
+
+letters = input("Enter letters: ").lower()
+
+available = Counter(letters)
+
+matches = []
+
+for word in words:
+    required = Counter(word)
+
+    if required <= available:
+        matches.append(word)
+
+print("\nPossible words:")
+
+for word in matches:
+    print(word)
