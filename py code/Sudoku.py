@@ -109,3 +109,26 @@ print("\nPossible words:")
 
 for word in matches:
     print(word)
+
+
+
+import random
+import time
+
+number = random.randint(10000, 99999)
+
+print("Remember this number:")
+print(number)
+
+time.sleep(3)
+
+print("\n" * 30)
+
+answer = input("What was the number? ")
+
+if answer == str(number):
+    print("Correct.")
+else:
+    print("Wrong.")
+    print("The number was:", number)
+    
