@@ -11,3 +11,18 @@ for gen in range(100):
             new[y][x]=1 if (grid[y][x] and n in (2,3)) or (not grid[y][x] and n==3) else 0
     grid=new
     input("Press Enter for next generation...")
+
+
+# Code 2: ASCII Mandelbrot set renderer (12 lines)
+w,h=80,40
+for y in range(h):
+    line=''
+    for x in range(w):
+        c=complex(-2+x*3/w, -1+y*2/h)
+        z=0
+        for i in range(50):
+            z=z*z+c
+            if abs(z)>2:
+                break
+        line+=' .,:;+=xX$#'[min(i//5,9)]
+    print(line)
