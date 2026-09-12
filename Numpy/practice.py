@@ -122,3 +122,18 @@ def display_animated_graph(selection):
 
 
 app.run(debug=True)'''
+
+
+
+import requests
+from bs4 import BeautifulSoup
+
+url = "https://example.com"
+headers = {"User-Agent": "MyScraper/1.0 (contact@example.com)"}
+
+r = requests.get(url, headers=headers, timeout=10)
+soup = BeautifulSoup(r.text, "html.parser")
+
+for item in soup.select(".item"):
+    title = item.select_one(".title").get_text(strip=True)
+    print(title)
