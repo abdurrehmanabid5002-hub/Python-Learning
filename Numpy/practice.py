@@ -137,3 +137,15 @@ soup = BeautifulSoup(r.text, "html.parser")
 for item in soup.select(".item"):
     title = item.select_one(".title").get_text(strip=True)
     print(title)
+
+import pandas as pd
+
+data = {
+    "Name": ["Ali", "Ahmed", "Sara", "Usman"],
+    "Age": [20, 22, 21, 23],
+    "Marks": [85, 72, 91, 68]
+}
+
+df = pd.DataFrame(data)
+
+print(df)
