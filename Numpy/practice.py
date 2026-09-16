@@ -149,3 +149,36 @@ data = {
 df = pd.DataFrame(data)
 
 print(df)
+
+
+import pandas as pd
+
+data = {
+    "Name": ["Ali", "Ahmed", "Sara", "Usman", "Hassan"],
+    "Age": [20, 22, 21, 23, 20],
+    "Marks": [85, 72, 91, 48, 67]
+}
+
+df = pd.DataFrame(data)
+
+df["Result"] = df["Marks"].apply(
+    lambda x: "Pass" if x >= 50 else "Fail"
+)
+
+print("\nStudent Data:")
+print(df)
+
+print("\nAverage Marks:")
+print(df["Marks"].mean())
+
+print("\nHighest Marks:")
+print(df["Marks"].max())
+
+print("\nTop Student:")
+print(df.loc[df["Marks"].idxmax()])
+
+print("\nPassed Students:")
+print(df[df["Result"] == "Pass"])
+
+print("\nSorted Students:")
+print(df.sort_values("Marks", ascending=False))
