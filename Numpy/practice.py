@@ -182,3 +182,12 @@ print(df[df["Result"] == "Pass"])
 
 print("\nSorted Students:")
 print(df.sort_values("Marks", ascending=False))
+
+
+
+
+name = input("Enter student name: ")
+
+result = df[df["Name"].str.lower() == name.lower()]
+
+print(result)
