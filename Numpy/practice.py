@@ -191,3 +191,12 @@ name = input("Enter student name: ")
 result = df[df["Name"].str.lower() == name.lower()]
 
 print(result)
+
+
+
+
+df["Result"] = df["Marks"].apply(
+    lambda x: "Pass" if x >= 50 else "Fail"
+)
+
+print(df)
