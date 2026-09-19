@@ -200,3 +200,8 @@ df["Result"] = df["Marks"].apply(
 )
 
 print(df)
+
+
+passed = df[df["Marks"] >= 50]
+
+print(passed)
