@@ -205,3 +205,12 @@ print(df)
 passed = df[df["Marks"] >= 50]
 
 print(passed)
+
+import numpy as np
+
+arr = np.array([45, 23, 89, 12, 67, 34, 90])
+
+print("Maximum:", np.max(arr))
+print("Minimum:", np.min(arr))
+print("Average:", np.mean(arr))
+print("Sum:", np.sum(arr))
