@@ -22,3 +22,21 @@ elif player == "scissors" and computer == "paper":
 
 else:
     print("Computer wins!")
+
+
+
+import numpy as np
+
+marks = np.array([78, 92, 65, 88, 45, 76, 95, 59, 81, 70])
+
+print("Marks:", marks)
+
+print("Average:", np.mean(marks))
+print("Highest:", np.max(marks))
+print("Lowest:", np.min(marks))
+
+print("Passed:", marks[marks >= 50])
+print("Failed:", marks[marks < 50])
+
+print("Number of Passed Students:", np.sum(marks >= 50))
+print("Number of Failed Students:", np.sum(marks < 50))
